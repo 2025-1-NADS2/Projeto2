@@ -13,24 +13,41 @@
 
 ## Descrição
 
+O Instituto Criativo tem enfrentado desafios na gestão de seus projetos educacionais, especialmente devido à descentralização das informações. Essa dispersão compromete o acompanhamento eficaz do progresso das ações, dificulta a tomada de decisões estratégicas e torna a comunicação entre gestores, educadores e parceiros menos fluida.
 
-Estamos passando por uma reformulação que visa renovar nossa identidade, fortalecer nosso impacto social e expandir nossas frentes de atuação. O foco está em atualizar metodologias, ampliar parcerias e tornar o Instituto Criativo ainda mais conectado com os desafios e potências do nosso tempo. É um novo ciclo de transformação para inspirar e inovar juntos.
+Para solucionar esse problema, está sendo proposta a criação de um dashboard de gestão centralizado, com o objetivo de organizar e integrar todas as atividades da instituição em um único ambiente digital. A ferramenta permitirá um acompanhamento mais claro e preciso dos projetos em andamento, promovendo transparência, eficiência administrativa e uma comunicação mais ágil entre os envolvidos.
+
+O painel contará com funcionalidades como visualização de cronogramas, rastreamento de progresso por iniciativa, envio de notificações automáticas e geração de relatórios personalizáveis com indicadores de desempenho. Além disso, o sistema poderá se integrar às redes sociais da instituição, facilitando a divulgação das ações e ampliando o alcance das iniciativas.
+
+A plataforma será desenvolvida com tecnologias modernas e escaláveis, utilizando .NET para o back-end, React para a interface de usuário e MySQL como banco de dados. Essa escolha tecnológica garante robustez, segurança e uma experiência intuitiva para os usuários.
+
+Com a implementação do dashboard, espera-se fortalecer a gestão do Instituto Criativo, permitindo maior controle sobre as metas, otimização do uso dos recursos e uma colaboração mais eficaz entre os diversos atores envolvidos. Essa solução contribuirá diretamente para o aumento do impacto e da qualidade dos projetos educacionais da instituição.
+
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+```
 
+Projeto1/
+   documentos/                                                 # Pasta principal contendo a documentação e entregas acadêmicas
+   ├── Entrega 1/                                            
+   │    ├── Algoritmos e Estrutura de Dados/                  # Implementação de algoritmo de ordenação em uma estrutura de dados definida.
+   │    ├── Desenvolvimento Web FullStack/                    # Estrutura inicial do projeto web.
+   │    ├── Design de Interface Digital/                      # Prototipação da Home no Figma e definição da identidade visual.
+   │    ├── Modelagem_de_Software e Arquitetura de Sistemas/  # Documento de abertura do projeto e requisitos funcionais/não funcionais.
+   │    ├── Programação_Orientada_ao_Objeto/                  # Implementação da classe principal para integração do sistema.
+   images/                                                   
+   src/                                                     
+   ├── Backend/                                               # Pasta com os códigos de backend
+   │   ├── scripts/                                           # Scripts JavaScript para funcionalidades
+   ├── Frontend/                                              # Pasta com os códigos de frontend
+   │   ├── pages/                                             # Páginas do site/aplicação
+   │   ├── styles/                                            # Arquivos CSS para estilização
+   │   ├── index.html                                         # Página principal do projeto
+   .gitignore                                                
+   readme.md
+
+```                                                
 ## 📋 Licença/License
 
 ## 🎓 Referências
