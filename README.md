@@ -41,10 +41,8 @@ Projeto1/
    ├── Backend/                                               # Pasta com os códigos de backend
    │   ├── scripts/                                           # Scripts JavaScript para funcionalidades
    ├── Frontend/                                              # Pasta com os códigos de frontend
-   │   ├── pages/                                             # Páginas do site/aplicação
-   │   ├── styles/                                            # Arquivos CSS para estilização
-   │   ├── index.html                                         # Página principal do projeto
-   .gitignore                                                
+   │   ├── assets/                                            
+   │   ├──                                         # Página principal do projeto                                               
    readme.md
 
 ```                                                
