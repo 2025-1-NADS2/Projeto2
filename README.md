@@ -39,7 +39,7 @@ Projeto1/
    images/                                                   
    src/                                                     
    ├── Backend/                                               # Pasta com os códigos de backend
-   │   ├── scripts/                                           # Scripts JavaScript para funcionalidades
+   │   
    ├── Frontend/                                              # Pasta com os códigos de frontend
    │   ├── assets/                                            
    │   ├── dist/
