@@ -42,7 +42,8 @@ Projeto1/
    │   ├── scripts/                                           # Scripts JavaScript para funcionalidades
    ├── Frontend/                                              # Pasta com os códigos de frontend
    │   ├── assets/                                            
-   │   ├──                                         # Página principal do projeto                                               
+   │   ├── dist/
+   │        ├──Index.html/                                        # Página principal do projeto                                               
    readme.md
 
 ```                                                
