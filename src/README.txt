@@ -29,9 +29,6 @@ Acesse a pasta do backend:
 
 cd backend
 
-## Instale as dependências:
-
-npm install
 Configure as variáveis de ambiente:
 
 No arquivo .env, edite os campos DB_USER e DB_PASSWORD com os dados da sua instalação do MySQL:
