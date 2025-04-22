@@ -25,3 +25,14 @@ exports.createUser = async (req, res) => {
     res.status(201).json({ message: "Usuário criado com sucesso!" });
   });
 };
+
+exports.deleteUser = (req, res) => {
+  const { id } = req.params;
+  const query = "DELETE FROM usuarios WHERE id = ?";
+  db.query(query, [id], (err, result) => {
+    if (err) return res.status(500).json({ error: err });
+    if (result.affectedRows === 0)
+      return res.status(404).json({ message: "Usuário não encontrado." });
+    res.json({ message: "Usuário excluído com sucesso!" });
+  });
+};

@@ -26,6 +26,16 @@ exports.getEvents = (req, res) => {
   });
 };
 
+exports.getFirstEvent = (req, res) => {
+  const query = "SELECT * FROM eventos ORDER BY id ASC LIMIT 1";
+  db.query(query, (err, results) => {
+    if (err) return res.status(500).json({ error: err });
+    if (results.length === 0)
+      return res.status(404).json({ message: "Nenhum evento encontrado." });
+    res.json(results[0]);
+  });
+};
+
 exports.updateEvent = (req, res) => {
   const { id } = req.params;
   const { titulo, descricao, data } = req.body;
