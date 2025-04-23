@@ -40,6 +40,7 @@ DB_NAME=instituto_criativo_db
 
 Inicie o servidor backend:
 
+npm install
 npm start
 
 Isso executará o arquivo server.js e iniciará o servidor backend.
