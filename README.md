@@ -31,19 +31,44 @@ Com a implementação do dashboard, espera-se fortalecer a gestão do Instituto 
 Projeto1/
    documentos/                                                 # Pasta principal contendo a documentação e entregas acadêmicas
    ├── Entrega 1/                                            
-   │    ├── Algoritmos e Estrutura de Dados/                  # Implementação de algoritmo de ordenação em uma estrutura de dados definida.
-   │    ├── Desenvolvimento Web FullStack/                    # Estrutura inicial do projeto web.
-   │    ├── Design de Interface Digital/                      # Prototipação da Home no Figma e definição da identidade visual.
-   │    ├── Modelagem_de_Software e Arquitetura de Sistemas/  # Documento de abertura do projeto e requisitos funcionais/não funcionais.
-   │    ├── Programação_Orientada_ao_Objeto/                  # Implementação da classe principal para integração do sistema.
+   │    ├── Algoritmos e Estrutura de Dados/                 
+   │    ├── Desenvolvimento Web FullStack/                    
+   │    ├── Design de Interface Digital/                      
+   │    ├── Modelagem_de_Software e Arquitetura de Sistemas/  
+   │    ├── Programação_Orientada_ao_Objeto/                  
+   ├── Entrega 2/                                            
+   │    ├── Algoritmos e Estrutura de Dados/                  
+   │    ├── Desenvolvimento Web FullStack/                    
+   │    ├── Design de Interface Digital/                      
+   │    ├── Modelagem_de_Software e Arquitetura de Sistemas/  
+   │    ├── Programação_Orientada_ao_Objeto/                  
+   ├── Entrega 3/                                            
+   │    ├── Algoritmos e Estrutura de Dados/                  
+   │    ├── Desenvolvimento Web FullStack/                    
+   │    ├── Design de Interface Digital/                     
+   │    ├── Modelagem_de_Software e Arquitetura de Sistemas/  
+   │    ├── Programação_Orientada_ao_Objeto/                  
    images/                                                   
    src/                                                     
    ├── Backend/                                               # Pasta com os códigos de backend
-   │   
+   │   ├── controllers/
+   │   ├── middlewares/
+   │   ├── models/
+   │   ├── routes/
+   │   ├── uploads/
+   │   ├── package-lock.json
+   │   ├── package.json
+   │   ├── server.js
    ├── Frontend/                                              # Pasta com os códigos de frontend
-   │   ├── assets/                                            
-   │   ├── dist/
-   │        ├──Index.html/                                        # Página principal do projeto                                               
+   │   ├── Css/                                            
+   │   ├── Images/Logo/
+   │   ├── js/
+   |   ├── cadastro-evento.html
+   |   ├── cadastro.html
+   |   ├── index.html
+   |   ├── login.html                                     
+   ├── README.txt
+   ├── db.sql                                             
    readme.md
 
 ```                                                
